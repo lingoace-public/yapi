@@ -1,6 +1,8 @@
 import Services from './Services/Services.js';
 
 function genServices(routers) {
+  console.log('routers',routers);
+
   routers['services'] = {
     name: '生成 ts services',
     component: Services
